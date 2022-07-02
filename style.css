@@ -1,0 +1,183 @@
+.img-1 {
+    padding-bottom: 10px;
+    margin-left: 180px;
+    
+
+    
+}
+
+body {
+    background-color: white;
+    
+}
+
+.nav-menu {
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 30%;
+    float: right;
+    
+    
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    justify-content: space-between;
+
+    
+}
+
+.nav-menu ul li {
+    width: 130px;
+    margin: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.animate-1 {
+    color: aqua;
+}
+
+.nav-menu ul li a:hover {
+    color: aqua;
+}
+
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: gray;
+    }
+    
+.animate-1:hover {
+    cursor: pointer;
+}
+
+.drop-1 {
+    display: none;
+
+}
+
+.nav-menu ul li:hover .drop-1 {
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.nav-menu ul li:hover .drop-1 ul {
+  display: block;
+  margin: 10px;  
+}
+
+.nav-menu ul li:hover .drop-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.img-2 {
+    margin-top: 90%;
+    margin-left: 10%;
+
+}
+
+h1 {
+    margin: 1em 0;
+    text-align: center;
+    color: rgb(67, 255, 233);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+    
+}
+
+
+
+.grid {
+    display: flex;
+    margin-left: 50px;
+    line-height: 1.75;
+    margin: 100px;
+    white-space: normal;
+
+    
+
+}
+
+.col-3 {
+    color: gray;
+    margin-left: 250px;
+    margin-left: 30px;
+}
+
+.col-2 {
+    color: gray;
+    margin-left: 100px;
+    padding-left: 50px;
+}
+
+
+
+
+.container {
+    display: flex;
+    gap: 4rem;
+}
+
+.aqua-light {
+    background-color: #9b9184;
+    
+}
+
+
+.aqua {
+    background-color: brown;
+    
+}
+
+.water {
+    background-color: yellow;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+/*<nav class="main-nav">
+			<ul class="main-menu">
+				<li><a href="/" class="is-current">About us</a></li>
+				<li><a href="/career">Career</a></li>
+				<li class="dropdown">
+					<a>
+						Departments<br>
+					</a>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="/department?dep=marketing">Marketing &amp; PR</a></li>
+							<li><a href="/department?dep=customer">Customer Success &amp; Sales</a></li>
+							<li><a href="/department?dep=it">IT, Product, Data</a></li>
+							<li><a href="/department?dep=finance">Finance &amp; Administration</a></li>
+							<li><a href="/department?dep=hr">HR &amp; more</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav> */
+
+
+        text-align: center;
+    float: right;
+    padding-right: 10px;
